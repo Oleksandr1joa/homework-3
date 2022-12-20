@@ -1,0 +1,181 @@
+:root {
+--primari-font:'Roboto', sans-serif;
+--primari-font-weight: font-weight: 500;
+--primari-font-size: font-size: 16px;
+--primari-font-heyght: line-height: 1.50;
+--primari-font-spacing: letter-spacing: 0.02em;
+--primari-font-logo:'Raleway', sans-serif;
+--primari-font-logo-weight: font-weight: 800;
+--primari-font-logo-size: font-size: 18px;
+--primari-font-logo-height: line-height: 1.33;
+--primari-font-logo-display: display: flex;
+--primari-font-logo-items: align-items: center
+--primari-font-logo-spacing: letter-spacing: 0.03em;
+--primari-font-logo-transform: text-transform: uppercase;
+--text-color-logo: #4D5AE5;
+--text-color-secondary: #2E2F42;
+--text-color-third: #434455;
+--text-color-fourth: #FFFFFF;
+--text-color-footer: #E7E9FC;
+}
+.list {list-style: none;}
+.link {text-decoration: none;}
+body {
+    font-family: var(--primari-font);
+}
+.primari-font-logo {
+    font-family: var(--primari-font-logo);
+}
+.primari-popular-text {
+    font-weight: var(--primari-font-weight);
+    font-size: var(--primari-font-size);
+    line-height: var(--primari-font-heyght);
+    letter-spacing: var(--primari-font-spacing);
+}
+.position-text-center {
+    text-align: center;
+}
+.color-logo {
+    color: var(--text-color-logo);
+}
+.color-secondary {
+    color: var(--text-color-secondary);
+}
+.color-third {
+    color: var(--text-color-third);
+}
+.color-fourth {
+    color: var(--text-color-fourth);
+}
+.color-footer {
+    color: var(--text-color-footer);
+}
+
+/*============================HEADER===========================*/
+
+.logo-text {
+font-weight: var(--primari-font-logo-weight);
+font-size: var(--primari-font-logo-size);
+line-height: var(--primari-font-logo-height);
+/* identical to box height */
+
+display: var(--primari-font-logo-display);
+align-items: var(-primari-font-logo-items);
+letter-spacing: var(--primari-font-logo-spacing);
+text-transform: var(--primari-font-logo-transform);
+
+/* IRIS */;
+
+}
+
+.menu-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.50;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    /* NAVY BLUE */
+}
+
+.menu-item:focus {
+        color: var(--text-color-logo);
+}
+
+.hero {
+font-size: 56px;
+line-height: 1.07;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+/*=======================/HEADER==========================*/
+/*=====================COMPONENTS========================*/
+
+.btn {
+    font-family: var(--primari-font);
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+cursor: pointer;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+}
+/*=====================/COMPONENTS=======================*/
+/*=====================DESCRIPTION========================*/
+.list-solution {
+    font-size: 20px;
+    line-height: 1.20;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.02em;
+    
+    /* NAVY BLUE */
+}
+.job-illumination {
+    font-size: 36px;
+line-height: 1.11;
+/* identical to box height, or 111% */
+
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+.name-on-team {
+    font-size: 20px;
+line-height: 1.20;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+}
+
+/*=====================/DESCRIPTION========================*/
+
+/*======================PORTFOLIO=========================*/
+
+    .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.modal-btn {
+    font-weight: 700;
+    font-family: inherit;
+        /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* display: block; */
+    letter-spacing: 0.04em;
+    
+    /* IRIS */
+    
+    color: var(--text-color-logo);
+cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color:#4D5AE5;
+    color:#FFFFFF;
+}
+
+/*======================/PORTFOLIO=========================*/
