@@ -1,17 +1,17 @@
 :root {
 --primari-font:'Roboto', sans-serif;
---primari-font-weight: font-weight: 500;
---primari-font-size: font-size: 16px;
---primari-font-heyght: line-height: 1.50;
---primari-font-spacing: letter-spacing: 0.02em;
---primari-font-logo:'Raleway', sans-serif;
---primari-font-logo-weight: font-weight: 800;
---primari-font-logo-size: font-size: 18px;
---primari-font-logo-height: line-height: 1.33;
---primari-font-logo-display: display: flex;
---primari-font-logo-items: align-items: center
---primari-font-logo-spacing: letter-spacing: 0.03em;
---primari-font-logo-transform: text-transform: uppercase;
+--primari-font-weight: 500;
+--primari-font-size:  16px;
+--primari-font-heyght: 1.50;
+--primari-font-spacing: 0.02em;
+--primari-font-logo: 'Raleway', sans-serif;
+--primari-font-logo-weight:  800;
+--primari-font-logo-size:  18px;
+--primari-font-logo-height: 1.33;
+--primari-font-logo-display:flex;
+--primari-font-logo-items:  center
+--primari-font-logo-spacing: 0.03em;
+--primari-font-logo-transform:  uppercase;
 --text-color-logo: #4D5AE5;
 --text-color-secondary: #2E2F42;
 --text-color-third: #434455;
