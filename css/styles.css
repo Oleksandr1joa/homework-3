@@ -18,6 +18,24 @@
 --text-color-fourth: #FFFFFF;
 --text-color-footer: #E7E9FC;
 }
+h1,h2,h3,h4,p {
+margin-top: 0;
+margin-bottom: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+address {
+    font-style: normal;
+}
+button {
+    cursor: pointer;
+}
 .list {list-style: none;}
 .link {text-decoration: none;}
 body {
@@ -52,7 +70,15 @@ body {
 }
 
 /*============================HEADER===========================*/
-
+.header {
+    display: flex;
+}
+.menu {
+    display:flex ;
+}
+.list {
+    display: flex;
+}
 .logo-text {
 font-weight: var(--primari-font-logo-weight);
 font-size: var(--primari-font-logo-size);
@@ -140,7 +166,17 @@ letter-spacing: 0.02em;
 /*=====================/DESCRIPTION========================*/
 
 /*======================PORTFOLIO=========================*/
+/*=======================MAIN==============================*/
+.btn-portfolio {
+    display: flex;
+}
 
+
+
+
+
+
+/*=======================/MAIN==============================*/
     .visually-hidden {
     position: absolute;
     width: 1px;
