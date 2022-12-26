@@ -17,6 +17,7 @@
 --text-color-third: #434455;
 --text-color-fourth: #FFFFFF;
 --text-color-footer: #E7E9FC;
+--text-logo-footer: #F4F4FD;
 }
 h1,h2,h3,h4,p {
 margin-top: 0;
@@ -59,8 +60,10 @@ body {
 .color-secondary {
     color: var(--text-color-secondary);
 }
+/*===Contact===*/
 .color-third {
     color: var(--text-color-third);
+    margin: 40px;
 }
 .color-fourth {
     color: var(--text-color-fourth);
@@ -68,16 +71,31 @@ body {
 .color-footer {
     color: var(--text-color-footer);
 }
-
+.color-logo-footer {
+    color: var(--text-logo-footer);
+}
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-head {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*============================HEADER===========================*/
 .header {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .menu {
     display:flex ;
 }
 .list {
     display: flex;
+    
 }
 .logo-text {
 font-weight: var(--primari-font-logo-weight);
@@ -91,9 +109,15 @@ letter-spacing: var(--primari-font-logo-spacing);
 text-transform: var(--primari-font-logo-transform);
 
 /* IRIS */;
-
+margin-right: 70px;
 }
-
+.page-container-head {
+    display: flex;
+    align-items: center;
+}
+.contact-mail {
+    margin-left: auto;
+}
 .menu-item {
     font-weight: 700;
     font-size: 16px;
@@ -102,7 +126,10 @@ text-transform: var(--primari-font-logo-transform);
     
     letter-spacing: 0.02em;
     cursor: pointer;
-    /* NAVY BLUE */
+    /* NAVY BLUE */    
+}
+.menu-list:not(:last-child) {
+    margin-right: 40px;
 }
 
 .menu-item:focus {
@@ -130,6 +157,9 @@ cursor: pointer;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
+}
+.main-head {
+    background-color: #2E2F42;
 }
 /*=====================/COMPONENTS=======================*/
 /*=====================DESCRIPTION========================*/
@@ -169,6 +199,16 @@ letter-spacing: 0.02em;
 /*=======================MAIN==============================*/
 .btn-portfolio {
     display: flex;
+    min-width: 48px;
+    height: 69px;
+    padding: 12, 20, 12, 20;
+    background: #F4F4FD;
+/* CORNFLOWER */
+
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+background-color: transparent;
+
 }
 
 
@@ -206,6 +246,8 @@ letter-spacing: 0.02em;
     
     color: var(--text-color-logo);
 cursor: pointer;
+display: flex;
+margin-right: 24px;
 }
 
 .modal-btn:hover,
@@ -215,3 +257,9 @@ cursor: pointer;
 }
 
 /*======================/PORTFOLIO=========================*/
+
+/*======================FOOTER===========================*/
+.footer-back {
+    background: #2E2F42;
+}
+/*======================/FOOTER===========================*/
