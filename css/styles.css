@@ -60,7 +60,7 @@ body {
 .color-secondary {
     color: var(--text-color-secondary);
 }
-/*===Contact===*/
+/*==============Contact================*/
 .color-third {
     color: var(--text-color-third);
 }
@@ -110,6 +110,7 @@ margin-right: 70px;
 .page-container-head {
     display: flex;
     align-items: center;
+    
 }
 .contact-mail {
     margin-left: auto;
@@ -135,10 +136,14 @@ margin-right: 70px;
 .hero {
 font-size: 56px;
 line-height: 1.07;
-/* or 107% */
-
-text-align: center;
 letter-spacing: 0.02em;
+height: 120px;
+width: 500px;
+justify-content: center;
+}
+.hero-position {
+    padding-top: 188px;
+    padding-bottom: 244px;
 }
 
 /*=======================/HEADER==========================*/
@@ -147,7 +152,8 @@ letter-spacing: 0.02em;
 
 .main-head {
     background-color: #2E2F42;
-    text-align: center;
+    justify-content: center;
+display: flex;
 }
 /*=====================/COMPONENTS=======================*/
 /*=====================DESCRIPTION========================*/
@@ -176,12 +182,24 @@ letter-spacing: 0.02em;
 }
 .list-bord {
     display: flex;
+    gap: 24px;
 }
 
 /*=====================/DESCRIPTION========================*/
-
-
 /*=======================MAIN==============================*/
+.container-list {
+    padding-top:  120px;
+}
+
+.work-scroll {
+    padding-top:  120px;
+}
+.list-bord-scroll {
+    margin-top: 72px;
+}
+
+/*=======================/MAIN==============================*/
+
 /*=======================BUTTON==============================*/
 .btn {
     font-family: var(--primari-font);
@@ -192,6 +210,14 @@ min-width: 169px;
 height: 56px;
     padding: 15, 31;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-family: inherit;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: var(--text-color-logo);
+cursor: pointer;
+border: 1px solid #E7E9FC;
 }
 
 .btn-portfolio {
@@ -219,6 +245,10 @@ border: 1px solid #E7E9FC;
     min-width: 48px;
     height: 69px;
     padding: 11, 19, 11, 19;
+}
+.btn-range {
+    text-align: center;
+    margin-top: 48px;
 }
 
 .modal-btn:hover,
@@ -270,11 +300,12 @@ padding-top:  32px;
 
 /*======================FOOTER===========================*/
 .footer-back {
-    background: #2E2F42;
-    
+    background: #2E2F42;    
     padding-left: 155px;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin-top: 120px;
+    
 }
 
 .footer-box {
