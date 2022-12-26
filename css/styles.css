@@ -114,6 +114,8 @@ margin-right: 70px;
 }
 .contact-mail {
     margin-left: auto;
+    display: flex;
+    gap: 40px;
 }
 .menu-item {
     font-weight: 700;
