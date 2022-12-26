@@ -83,6 +83,7 @@ body {
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 /*============================HEADER===========================*/
 .header {
@@ -148,30 +149,19 @@ letter-spacing: 0.02em;
 /*=======================/HEADER==========================*/
 /*=====================COMPONENTS========================*/
 
-.btn {
-    font-family: var(--primari-font);
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
-cursor: pointer;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-}
+
 .main-head {
     background-color: #2E2F42;
+    text-align: center;
 }
 /*=====================/COMPONENTS=======================*/
 /*=====================DESCRIPTION========================*/
 .list-solution {
     font-size: 20px;
     line-height: 1.20;
-    /* identical to box height, or 120% */
-    
     letter-spacing: 0.02em;
-    
-    /* NAVY BLUE */
 }
+
 .job-illumination {
     font-size: 36px;
 line-height: 1.11;
@@ -195,25 +185,55 @@ letter-spacing: 0.02em;
 
 /*=====================/DESCRIPTION========================*/
 
-/*======================PORTFOLIO=========================*/
+
 /*=======================MAIN==============================*/
+/*=======================BUTTON==============================*/
+.btn {
+    font-family: var(--primari-font);
+font-size: 16px;
+line-height: 1.18;
+align-items: center;
+min-width: 169px;
+height: 56px;
+    padding: 15, 31;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .btn-portfolio {
     display: flex;
     min-width: 48px;
     height: 69px;
-    padding: 12, 20, 12, 20;
+    padding: 11, 19, 11, 19;
     background: #F4F4FD;
 /* CORNFLOWER */
 
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 background-color: transparent;
+justify-content: center;
+
 }
 
+.modal-btn {
+    font-weight: 700;
+    font-family: inherit;
+        /* identical to box height, or 150% */
+    
+    align-items: center;
+    letter-spacing: 0.04em;
+        color: var(--text-color-logo);
+cursor: pointer;
+border: 1px solid #E7E9FC;
+}
 
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color:#4D5AE5;
+    color:#FFFFFF;
+}
+/*======================PORTFOLIO=========================*/
 
-
-
+/*=======================/BUTTON==============================*/
 
 /*=======================/MAIN==============================*/
     .visually-hidden {
@@ -229,31 +249,11 @@ background-color: transparent;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-.modal-btn {
-    font-weight: 700;
-    font-family: inherit;
-        /* identical to box height, or 150% */
-    
+.container-app {
+    padding-top: 75px;
+    padding-bottom: 32px;
     display: flex;
-    align-items: center;
-    text-align: center;
-    /* display: block; */
-    letter-spacing: 0.04em;
     
-    /* IRIS */
-    
-    color: var(--text-color-logo);
-cursor: pointer;
-display: flex;
-margin-right: 24px;
-border: 1px solid #E7E9FC;
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-    background-color:#4D5AE5;
-    color:#FFFFFF;
 }
 
 /*======================/PORTFOLIO=========================*/
