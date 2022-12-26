@@ -63,7 +63,6 @@ body {
 /*===Contact===*/
 .color-third {
     color: var(--text-color-third);
-    margin: 40px;
 }
 .color-fourth {
     color: var(--text-color-fourth);
@@ -93,10 +92,6 @@ body {
 }
 .menu {
     display:flex ;
-}
-.list {
-    display: flex;
-    
 }
 .logo-text {
 font-weight: var(--primari-font-logo-weight);
@@ -160,6 +155,7 @@ letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
+        
 }
 
 .job-illumination {
@@ -175,12 +171,11 @@ text-transform: capitalize;
 .name-on-team {
     font-size: 20px;
 line-height: 1.20;
-/* identical to box height, or 120% */
-
 text-align: center;
 letter-spacing: 0.02em;
-
-/* NAVY BLUE */
+}
+.list-bord {
+    display: flex;
 }
 
 /*=====================/DESCRIPTION========================*/
@@ -201,29 +196,29 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .btn-portfolio {
     display: flex;
-    min-width: 48px;
-    height: 69px;
-    padding: 11, 19, 11, 19;
     background: #F4F4FD;
-/* CORNFLOWER */
-
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 background-color: transparent;
 justify-content: center;
+margin-top: 95px;
+}
 
+.btn-portfolio-range {
+    gap: 24px;
 }
 
 .modal-btn {
     font-weight: 700;
     font-family: inherit;
-        /* identical to box height, or 150% */
-    
     align-items: center;
     letter-spacing: 0.04em;
         color: var(--text-color-logo);
 cursor: pointer;
 border: 1px solid #E7E9FC;
+    min-width: 48px;
+    height: 69px;
+    padding: 11, 19, 11, 19;
 }
 
 .modal-btn:hover,
@@ -250,16 +245,47 @@ border: 1px solid #E7E9FC;
     overflow: hidden;
 }
 .container-app {
-    padding-top: 75px;
+    padding-top: 48px;
     padding-bottom: 32px;
     display: flex;
-    
+    flex-wrap: wrap;    
+    gap: 24px;
 }
+.con-app {
+    padding-top: 72px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.con-box {
+padding-top:  32px;
+}
+.discription-text {
+    margin-top: 8px;
+}
+
 
 /*======================/PORTFOLIO=========================*/
 
 /*======================FOOTER===========================*/
 .footer-back {
     background: #2E2F42;
+    
+    padding-left: 155px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.footer-box {
+    height: 110px;
+    width: 264px; 
+    text-align: left;
+}
+.footer-box-text {
+    margin-top: 16px;
+    
+
+}
+
 /*======================/FOOTER===========================*/
