@@ -220,6 +220,10 @@ letter-spacing: 0.02em;
 .list-bord-scroll {
     margin-top: 72px;
 }
+.con-box {
+padding-top:  32px;
+padding-bottom: 32px;
+}
 
 /*=======================/MAIN==============================*/
 
@@ -328,9 +332,12 @@ border-bottom: 1px solid #E7E9FC;
     flex-wrap: wrap;
     gap: 24px;
 }
-.con-box {
+
+.con-box-portfolio {
 padding-top:  32px;
 padding-bottom: 32px;
+padding-left: 16px;
+padding-right: 95px;
 }
 .discription-text {
     margin-top: 8px;
@@ -338,7 +345,6 @@ padding-bottom: 32px;
 .container {
     max-width: 360px;    
 margin: 0px;
-padding: 0px;
 background: #FFFFFF;
 border: 1px solid #E7E9FC;
 padding-top:  32px;
