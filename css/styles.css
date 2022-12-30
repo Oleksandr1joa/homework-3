@@ -113,8 +113,6 @@ margin-right: 70px;
 .page-container-head {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .contact-mail {
     margin-left: auto;
