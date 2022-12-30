@@ -74,8 +74,9 @@ body {
 .color-logo-footer {
     color: var(--text-logo-footer);
 }
+
 .size-body {
-    width: 1128px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -85,7 +86,7 @@ body {
     margin-right: auto;
     
 }.size-head-logo {
-    width: 1128px;
+    width: 1158px;
 }
 /*============================HEADER===========================*/
 .header {
@@ -153,7 +154,6 @@ justify-content: center;
 /*=======================/HEADER==========================*/
 /*=====================COMPONENTS========================*/
 
-
 .main-head {
     background-color: #2E2F42;
     justify-content: center;
@@ -208,7 +208,15 @@ letter-spacing: 0.02em;
 .work-scroll {
     padding-top:  120px;
     padding-bottom: 120px;
+    display: flex;    
+    justify-content: center;
 }
+.size-body-app {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .list-bord-scroll {
     margin-top: 72px;
 }
@@ -322,6 +330,7 @@ border-bottom: 1px solid #E7E9FC;
 }
 .con-box {
 padding-top:  32px;
+padding-bottom: 32px;
 }
 .discription-text {
     margin-top: 8px;
