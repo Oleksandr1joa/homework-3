@@ -324,8 +324,6 @@ border-bottom: 1px solid #E7E9FC;
     overflow: hidden;
 }
 .container-app {
-    padding-top: 48px;
-    /* padding-bottom: 32px; */
     display: flex;
     flex-wrap: wrap;    
     gap: 24px;
